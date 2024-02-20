@@ -9,13 +9,13 @@ header{
     padding: 0.1px;
 }
 
-div{
+header div{
     position: relative;
     z-index: 1;
     filter: drop-shadow(2px 4px 1px black);
 }
 
-div svg{
+header div svg{
     width: 50px;
     height: 50px;
     position: absolute;
@@ -40,10 +40,46 @@ h1 {
     text-shadow: 0 0 12px #350314, 1px 5px 1px #e91e63c4, 3px 10px 1px #f586f5, 4px 17px 0px #040e49;
 }
 
-main{
+.about-me{
     height: 100vh;
     background: linear-gradient( 170deg, #1DFFC2 23%, rgb(0 0 0 / 0%) 23% ), linear-gradient(150deg, #ffe500 35%, rgba(0, 0, 0, 0) 49%), linear-gradient(383deg, #00B5FF 10%, #f586f5 46%);
     overflow: hidden;
+}
+
+.about-me:first-of-type div{
+    position: relative;
+    z-index: 0;
+    filter: drop-shadow(2px 4px 1px black);
+}
+
+.about-me:first-of-type div svg{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 51px;
+    left: 26px;
+    filter: drop-shadow(-4px 1px 0px yellow);
+    transform: rotate(41deg);
+}
+
+.about-me:last-of-type div:last-of-type{
+    position: relative;
+    z-index: -1;
+    filter: unset;
+}
+
+.about-me:last-of-type div:last-of-type svg{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: -101px;
+    left: -1px;
+    filter: unset;
+    transform: rotate(41deg);
+}
+
+.about-me:last-of-type div:last-of-type svg path{
+    fill: yellow;
 }
 
 h2{
@@ -58,4 +94,18 @@ h2{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+article{
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p{
+    font-family: var(--secundary-font);
+    width: 70%;
+    font-size: 1.7rem;
+    color: #040e49;
 }
