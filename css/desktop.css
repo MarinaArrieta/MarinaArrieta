@@ -1,10 +1,10 @@
-.astronauta img {
+.astronaut img {
     top: -44px;
     left: 166px;
     width: 43px;
 }
 
-.nave img {
+.spaceship img {
     width: 23px;
 }
 
@@ -35,7 +35,7 @@ main p {
     width: 59%;
 }
 
-.img__proyecto {
+.img__proyect {
     width: 300px;
 }
 
@@ -79,7 +79,7 @@ footer ul li i{
 
 @media (min-width: 1440px){
 
-    .astronauta img {
+    .astronaut img {
         top: -32px;
         left: 247px;
     }
@@ -92,7 +92,7 @@ footer ul li i{
         transform: rotate(12deg);
     }
 
-    .nave__marciano img {
+    .alien__spaceship img {
         width: 100px;
     }
 
@@ -126,7 +126,7 @@ footer ul li i{
         top: -67px;
     }
 
-    .contenedor__articulo {
+    .container__article {
         width: 30%;
     }
 

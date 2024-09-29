@@ -1,4 +1,4 @@
-.astronauta img {
+.astronaut img {
     top: -48px;
     left: 97px;
     width: 46px;
@@ -10,7 +10,7 @@ h1{
     font-size: 6rem;
 }
 
-.star-title svg {
+.star__title svg {
     width: 55px;
     height: 81px;
     top: 22px;
@@ -25,7 +25,7 @@ main{
     top: 100px;
 }
 
-.articulos{
+.articles{
     align-items: center;
 }
 
@@ -50,7 +50,7 @@ p{
     top: -62px;
 }
 
-.contenedor__articulo {
+.container__article {
     width: 40%;
     align-items: flex-start;
     gap: 35px;
@@ -64,20 +64,20 @@ ul li i {
     font-size: 1rem;
 }
 
-.descripcion{
+.description{
     width: 100%;
     text-align: start;
 }
 
-.img__proyecto {
+.img__proyect {
     width: 36%;
 }
 
-.tecnologias{
+.technologies{
     flex-direction: unset;
 }
 
-.tecnologias div, .deploy div{
+.technologies div, .deploy div{
     width: 50%;
 }
 
