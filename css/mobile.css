@@ -8,8 +8,7 @@
 body {
     display: flex;
     flex-direction: column;
-    /* gap:0px; */
-    background-image: linear-gradient(45deg, #04035852 30%, #00048b54 70%), url(/image/skyblue.gif);
+    background-image: var(--gradiente-estrellas), url(/image/skyblue.gif);
     background-attachment: fixed;
 }
 
@@ -36,9 +35,9 @@ h1 {
     height: 330px;
     font-size: 5rem;
     transform: rotate(-9deg);
-    color: #ffe500;
+    color: var(--yellow);
     text-shadow: 0 0 12px #350314, 1px 7px 1px #e91e63c4, 3px 11px 1px #f586f5, 4px 20px 0px #040e49;
-    filter: drop-shadow(1px 0px 35px blue);
+    filter: drop-shadow(1px 0px 35px var(--blue));
 }
 
 .astronauta img, .nave img{
@@ -88,7 +87,7 @@ h1 {
 .star-title{
     position: relative;
     z-index: 2;
-    filter: drop-shadow(2px 4px 1px black);
+    filter: drop-shadow(2px 4px 1px var(--black));
 }
 
 .star-title svg{
@@ -97,7 +96,7 @@ h1 {
     position: absolute;
     top: 28px;
     right: -68px;
-    filter: drop-shadow(-4px 1px 0px #ffe500); 
+    filter: drop-shadow(-4px 1px 0px var(--yellow)); 
     transform: rotate(20deg);
 }
 
@@ -109,7 +108,7 @@ h1 {
 .nave img{
     width: 26px;
     bottom: 64px;
-    box-shadow: 0px -98px 42px -6px #ff8200;
+    box-shadow: 0px -98px 42px -6px var(--orange);
 }
 
 main{
@@ -119,7 +118,7 @@ main{
 }
 
 main section{
-    filter: drop-shadow(0px 0px 46px #3f01ad);
+    filter: drop-shadow(0px 0px 46px var(--violet));
 }
 
 .container__hp{
@@ -131,15 +130,15 @@ main section{
     position: relative;
     bottom: -41px;
     overflow: hidden;
-    filter: drop-shadow(0px -20px 0px #00b5ffa1);
+    filter: drop-shadow(0px -20px 0px var(--filter-wave));
 }
 
 .wave1 svg{
-    filter: drop-shadow(0px -10px 0px black);
+    filter: drop-shadow(0px -10px 0px var(--black));
 }
 
 .wave1 svg path{
-    filter: drop-shadow(0px -28px 0px blue);
+    filter: drop-shadow(0px -28px 0px var(--blue));
 }
 
 article{
@@ -148,7 +147,7 @@ article{
     justify-content: center;
     flex-direction: column;
     gap: 35px;
-    background: #310187;
+    background: var(--violet-dark);
     position: relative;
     z-index: 1;
 }
@@ -169,23 +168,23 @@ article{
 }
 
 .star1 svg path, .star-about-me3 svg path{
-    fill: #ff8400;
-    filter: drop-shadow(-13px 37px 0px #210f43);
+    /* fill: #ff8400; */
+    /* filter: drop-shadow(-13px 37px 0px #210f43); */
 }
 
 .path{
-    filter: drop-shadow(0px -18px 0px #000000);
+    /* filter: drop-shadow(0px -18px 0px #000000); */
 }
 
 h2{
     font-family: var(--primary-font);
     font-size: 4rem;
-    color: #00b5ff;
+    color: var(--light-blue);
     text-shadow: -3px 1px 0px #040e49;
     text-align: center;
     font-family: "Londrina Solid", sans-serif;
     font-weight: 100;
-    filter: drop-shadow(0px 4px 6px #000000);
+    filter: drop-shadow(0px 4px 6px var(--black));
 }
 
 .star2{
@@ -204,7 +203,7 @@ h2{
 }
 
 .star2 svg path, .star4 svg path{
-    fill: #ffe500;
+    fill: var(--yellow);
     filter: drop-shadow(-13px 37px 0px #210f43);
 }
 
@@ -230,7 +229,7 @@ p{
     width: 80%;
     font-size: 1.2rem;
     text-align: center;
-    color: #00b5ff;
+    color: var(--light-blue);
     margin: 0px;
 }
 
@@ -244,18 +243,18 @@ p{
 .wave2{
     width: 100%;
     overflow: hidden;
-    filter: drop-shadow(0px 20px 0px #00b5ffa1);
+    filter: drop-shadow(0px 20px 0px var(--filter-wave));
     position: relative;
     top: -3px;
     z-index: 0;
 }
 
 .wave2 svg{
-    filter: drop-shadow(0px 10px 0px black);
+    filter: drop-shadow(0px 10px 0px var(--black));
 }
 
 .wave2 svg path{
-    filter: drop-shadow(0px -28px 0px blue);
+    filter: drop-shadow(0px -28px 0px var(--blue));
 }
 
 .perro{
@@ -289,7 +288,7 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #310187;
+    background: var(--violet-dark);
 }
 
 .star4{
@@ -308,12 +307,12 @@ p{
 }
 
 h3{
-    font-family: "Londrina Solid", sans-serif;
+    font-family: var(--third-font);
     margin: 0px;
     font-size: 2rem;
-    color: #ff8200;
+    color: var(--orange);
     font-weight: 300;
-    text-shadow: -2px 2px 0px #330e03;
+    text-shadow: -2px 2px 0px var(--shadow-third-font);
 }
 
 ul{
@@ -330,8 +329,8 @@ ul li {
     justify-content: space-evenly;
     align-items: center;
     border-radius: 26px;
-    border: 1px solid #0e00fa;
-    background: #04043b;
+    border: 1px solid var(--blue);
+    background: var(--dark-blue);
     width: 76px;
     padding: 5px 0px;
 }
@@ -348,19 +347,19 @@ ul li p{
 }
 
 .html{
-    color: #ff8200;
+    color: var(--orange);
 }
 
 .css{
-    color: #438bf7;
+    color: var(--light-blue);
 }
 
 .js{
-    color: #ffe500;
+    color: var(--yellow);
 }
 
 .preview, .code{
-    color: #ffe500;
+    color: var(--yellow);
 }
 
 .deploy li{
@@ -382,17 +381,17 @@ a{
 }
 
 .deploy li:hover{
-    color: #ff8200; 
+    color: var(--orange); 
     font-weight: bold;
-    text-shadow: 1px 2px 6px black;
+    text-shadow: 1px 2px 6px var(--black);
 }
 
 .img__proyecto{
     width: 80%;
     background: aliceblue;
     border-radius: 9px;
-    box-shadow: -1px 1px 8px 6px #5d03ff;
-    border: 1px solid #0e00fa;
+    box-shadow: -2px 0px 5px 8px var(--violet);
+    border: 1px solid var(--blue);
 }
 
 img{
@@ -415,11 +414,11 @@ footer figure{
     justify-content: center;
     margin: 0;
     width: 40%;
-    filter: drop-shadow(0px 0px 15px #530ad5);
+    filter: drop-shadow(0px 0px 15px var(--black));
 }
 
 footer figure img{
-    filter: drop-shadow(0px 5px 0px blue);
+    filter: drop-shadow(0px 5px 0px var(--blue));
     animation-name: scale;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -431,13 +430,13 @@ footer figure img{
     bottom: -26px;
     width: 111px;
     z-index: 0;
-    filter: drop-shadow(0px 5px 40px blue);
+    filter: drop-shadow(0px 5px 10px var(--red));
 }
 
 .wave5{
     position: relative;
     top: -53px;
-    filter: drop-shadow(0px 42px 10px #7401ff);
+    filter: drop-shadow(0px 42px 10px var(--violet));
     animation-name: scale;
     animation-duration: 2s;
     animation-iteration-count: infinite;
@@ -456,7 +455,7 @@ footer h2{
 
 footer ul{
     height: 10vh;
-    filter: drop-shadow(0px 0px 15px #530ad5);
+    filter: drop-shadow(0px 0px 15px var(--violet));
 }
 
 footer ul li{
@@ -464,7 +463,7 @@ footer ul li{
     height: 35px;
     border-radius: 21px;
     border: none;
-    filter: drop-shadow(0px 5px 0px blue);
+    filter: drop-shadow(0px 5px 0px var(--blue));
 }
 
 footer ul li i{
@@ -474,5 +473,5 @@ footer ul li i{
 footer ul li i:hover {
     color: #ff8200;
     font-weight: bold;
-    text-shadow: 1px 2px 6px black;
+    /* text-shadow: 1px 2px 6px black; */
 }

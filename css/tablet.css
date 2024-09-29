@@ -25,6 +25,10 @@ main{
     top: 100px;
 }
 
+.articulos{
+    align-items: center;
+}
+
 .jobs article {
     flex-direction: row;
 }

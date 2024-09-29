@@ -1,25 +1,35 @@
-/* @import url(./normalize.css); */
 @import url(./mobile.css);
 @import url(./tablet.css) screen and (min-width: 768px);
 @import url(./desktop.css) screen and (min-width: 1024px);
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&display=swap'); */
 
 @import url('https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@100;300;400;900&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Shrikhand&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Erica+One&family=Shrikhand&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Pattaya&family=Shrikhand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Erica+One&family=Shrikhand&display=swap'); */
 
 :root{
 
     /* Fuentes */
     --primary-font: "Pacifico", cursive;
     --secundary-font: "Fredoka", sans-serif;
-    /* --third-font: "Pattaya", sans-serif; */
-    --third-font: "Erica One", sans-serif;
-    /* --secundary-font: "Londrina Solid", sans-serif;
-    --font-a: "DynaPuff", system-ui; */
+    --third-font: "Londrina Solid", sans-serif;
+    
+    /* Paleta de colores */
+    --gradiente-estrellas: linear-gradient(45deg, #04035852 30%, #00048b54 70%);
+    --red: #ff0000;
+    --orange: #ff8200;
+    --yellow: #ffe500;
+    --light-blue: #00b5ff;
+    --filter-wave: #00b5ffa1;
+    --blue: #0000ff;
+    --violet: #3f01ad;
+    --violet-dark: #310187;
+    --shadow-third-font: #330e03;
+    --dark-blue: #04043b;
+    --black: #000000;
 }
 

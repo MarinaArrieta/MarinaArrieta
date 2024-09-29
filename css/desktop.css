@@ -19,11 +19,11 @@
 
 .perro img {
     width: 19%;
-    top: 95px;
+    top: 64px;
 }
 
 h2 {
-    font-size: 3.3rem;
+    font-size: 3.8rem;
 }
 
 main p {
@@ -128,6 +128,11 @@ footer ul li i{
 
     .contenedor__articulo {
         width: 30%;
+    }
+
+    .perro img {
+        width: 17%;
+        top: 112px;
     }
 
     main p {
