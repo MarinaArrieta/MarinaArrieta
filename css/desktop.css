@@ -1,0 +1,148 @@
+.astronauta img {
+    top: -44px;
+    left: 166px;
+    width: 43px;
+}
+
+.nave img {
+    width: 23px;
+}
+
+.wave1 {
+    top: 134px;
+}
+
+.jobs{
+    position: relative;
+    top: -86px;
+}
+
+.perro img {
+    width: 19%;
+    top: 95px;
+}
+
+h2 {
+    font-size: 3.3rem;
+}
+
+main p {
+    width: 50%;
+    font-size: 1.3rem;
+}
+
+.img {
+    width: 59%;
+}
+
+.img__proyecto {
+    width: 300px;
+}
+
+ul {
+    width: 65%;
+}
+
+.wave2 {
+    top: -118px;
+}
+
+footer{
+    margin: -74px 0px 50px;
+    overflow: unset;
+}
+
+footer figure {
+    width: 18%;
+    position: relative;
+    top: -25px;
+}
+
+footer div {
+    height: 25vh;
+}
+
+footer h2{
+    font-size: 4.5rem;
+    margin: 45px 0px 53px;
+}
+
+footer ul li {
+    width: 74px;
+    height: 61px;
+    border-radius: 35px;
+}
+
+footer ul li i{
+    font-size: 2rem;
+}
+
+@media (min-width: 1440px){
+
+    .astronauta img {
+        top: -32px;
+        left: 247px;
+    }
+
+    .star-title svg {
+        width: 69px;
+        height: 81px;
+        top: 30px;
+        right: -78px;
+        transform: rotate(12deg);
+    }
+
+    .nave__marciano img {
+        width: 100px;
+    }
+
+    @keyframes traslado {
+        0% {
+            transform: translate(0px);
+        }
+        
+        100% {
+            transform: translate(144px, -148px);
+        }
+    }
+
+    h1 {
+        width: 500px;
+        height: 500px;
+        font-size: 8rem;
+    }
+
+    .wave1 {
+        top: 185px;
+    }
+
+    h2 {
+        font-size: 4rem;
+        position: relative;
+        top: -23px;
+    }
+
+    .star2 {
+        top: -67px;
+    }
+
+    .contenedor__articulo {
+        width: 30%;
+    }
+
+    main p {
+        font-size: 1.7rem;
+    }
+
+    .jobs {
+        top: -199px;
+    }
+
+    .wave2 {
+        top: -137px;
+    }
+
+    footer {
+        margin: -92px 0px 111px;
+    }
+}

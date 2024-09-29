@@ -1,12 +1,99 @@
+.astronauta img {
+    top: -48px;
+    left: 97px;
+    width: 46px;
+}
+
 h1{
-    width: 591px;
-    height: 595px;
-    font-size: 9rem;
+    width: 400px;
+    height: 400px;
+    font-size: 6rem;
 }
 
 .star-title svg {
-    width: 70px;
-    height: 70px;
-    top: 143px;
-    right: -115px;
+    width: 55px;
+    height: 81px;
+    top: 22px;
+    right: -81px;
+}
+
+main{
+    gap: 0;
+}
+
+.wave1 {
+    top: 100px;
+}
+
+.jobs article {
+    flex-direction: row;
+}
+
+.perro img {
+    width: 149px;
+    top: 35px;
+}
+
+h2{
+    font-size: 4rem;
+}
+
+p{
+    font-size: 1.3rem;
+}
+
+.wave2 {
+    top: -62px;
+}
+
+.contenedor__articulo {
+    width: 40%;
+    align-items: flex-start;
+    gap: 35px;
+}
+
+ul{
+    width: 100%;
+}
+
+ul li i {
+    font-size: 1rem;
+}
+
+.descripcion{
+    width: 100%;
+    text-align: start;
+}
+
+.img__proyecto {
+    width: 36%;
+}
+
+.tecnologias{
+    flex-direction: unset;
+}
+
+.tecnologias div, .deploy div{
+    width: 50%;
+}
+
+footer {
+    height: 70vh;
+    overflow: hidden;
+}
+
+footer figure {
+    width: 24%;
+}
+
+footer div {
+    width: 50%;
+}
+
+footer ul{
+    width: 35%;
+}
+
+footer ul li i{
+    font-size: 1.7rem;
 }

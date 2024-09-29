@@ -1,7 +1,7 @@
-@import url(./normalize.css);
+/* @import url(./normalize.css); */
 @import url(./mobile.css);
 @import url(./tablet.css) screen and (min-width: 768px);
-@import url(desktop.css) screen and (min-width: 1024px);
+@import url(./desktop.css) screen and (min-width: 1024px);
 
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
