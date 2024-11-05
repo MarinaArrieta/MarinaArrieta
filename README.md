@@ -1,4 +1,4 @@
-[![Captura-de-pantalla-183.png](https://i.postimg.cc/pdDzfX7n/Captura-de-pantalla-183.png)](https://postimg.cc/qtvN00pk)
+https://i.postimg.cc/W1cMhkYP/Captura-de-pantalla-183.png
 
 ✨ ***Descripción***
 
