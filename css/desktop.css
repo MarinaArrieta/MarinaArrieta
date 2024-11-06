@@ -98,20 +98,11 @@ footer ul li i{
         right: -197px;
     }
 
-    /* @keyframes traslado {
-        0% {
-            transform: translate(0px);
-        }
-        
-        100% {
-            transform: translate(144px, -148px);
-        }
-    } */
-
     h1 {
         width: 500px;
         height: 500px;
         font-size: 8rem;
+        border-radius: 245px;
     }
 
     .wave1 {

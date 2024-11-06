@@ -37,7 +37,9 @@ h1 {
     transform: rotate(-9deg);
     color: var(--yellow);
     text-shadow: 0 0 12px #350314, 1px 7px 1px #e91e63c4, 3px 11px 1px #f586f5, 4px 20px 0px #040e49;
-    filter: drop-shadow(1px 0px 35px var(--blue));
+    filter: drop-shadow(0px 0px 19px var(--blue));
+    box-shadow: 0px 0px 0px 7px #000316, 0px 0px 34px 41px #130036, 0px 0px 14px 13px #5e08ff;
+    border-radius: 201px;
 }
 
 .astronaut img, .spaceship img{
@@ -51,6 +53,7 @@ h1 {
 .astronaut{
     position: relative;
     width: 50%;
+    z-index: 1;
 }
 
 .astronaut img{
@@ -60,23 +63,13 @@ h1 {
 
 .alien__spaceship{
     position: relative;
-    /* top: 176px; */
+    z-index: 1;
     position: absolute;
     animation-name: scale;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
-
-/* @keyframes traslado {
-    from {
-      transform: translate(0px)
-    }
-  
-    to {
-      transform: translate(90px, -100px)
-    }
-} */
 
 .alien__spaceship img{
     width: 60px;
