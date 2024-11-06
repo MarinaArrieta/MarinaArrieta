@@ -93,10 +93,12 @@ footer ul li i{
     }
 
     .alien__spaceship img {
-        width: 100px;
+        width: 73px;
+        top: -242px;
+        right: -197px;
     }
 
-    @keyframes traslado {
+    /* @keyframes traslado {
         0% {
             transform: translate(0px);
         }
@@ -104,7 +106,7 @@ footer ul li i{
         100% {
             transform: translate(144px, -148px);
         }
-    }
+    } */
 
     h1 {
         width: 500px;

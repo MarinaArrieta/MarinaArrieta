@@ -60,15 +60,15 @@ h1 {
 
 .alien__spaceship{
     position: relative;
-    top: 176px;
+    /* top: 176px; */
     position: absolute;
-    animation-name: traslado;
+    animation-name: scale;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
 
-@keyframes traslado {
+/* @keyframes traslado {
     from {
       transform: translate(0px)
     }
@@ -76,12 +76,13 @@ h1 {
     to {
       transform: translate(90px, -100px)
     }
-}
+} */
 
 .alien__spaceship img{
-    width: 84px;
+    width: 60px;
     position: absolute;
-    top: 145px;
+    top: -184px;
+    right: -141px;
 }
 
 .star__title{
