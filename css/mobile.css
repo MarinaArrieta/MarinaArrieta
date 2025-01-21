@@ -262,6 +262,10 @@ p{
     rotate: 9deg;
 }
 
+.jobs article{
+    padding: 13px;
+}
+
 .star3{
     display: flex;
     justify-content: center;
@@ -382,10 +386,17 @@ a{
 
 .img__proyect{
     width: 80%;
-    background: aliceblue;
+    /* background: aliceblue;
     border-radius: 9px;
     box-shadow: -2px 0px 5px 8px var(--violet);
-    border: 1px solid var(--blue);
+    border: 1px solid var(--blue); */
+}
+
+.img__proyect img{
+    /* max-width: 100%;
+    border-radius: 9px;
+    box-shadow: -2px 0px 5px 8px var(--violet);
+    border: 1px solid var(--blue); */
 }
 
 img{
