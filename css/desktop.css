@@ -36,11 +36,12 @@ main p {
 }
 
 .img__proyect {
-    width: 300px;
+    /* width: 300px; */
+    width: 100%;
 }
 
-ul {
-    width: 65%;
+ul{
+    width: 100%;
 }
 
 .wave2 {
@@ -119,9 +120,9 @@ footer ul li i{
         top: -67px;
     }
 
-    .container__article {
+    /* .container__article {
         width: 30%;
-    }
+    } */
 
     .perro img {
         width: 17%;
