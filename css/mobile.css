@@ -234,12 +234,30 @@ p{
     filter: unset;
 }
 
+.about__me{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.article__skills{
+    /* gap: unset; */
+    height: 75vh;
+    margin-top: -22px;
+}
+
+.skills{
+    width: 80%;
+    flex-wrap: wrap-reverse;
+    gap: 15px;
+}
+
 .wave2{
     width: 100%;
     overflow: hidden;
     filter: drop-shadow(0px 20px 0px var(--filter-wave));
     position: relative;
-    top: -3px;
+    top: -62px;
     z-index: 0;
 }
 

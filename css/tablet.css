@@ -33,6 +33,10 @@ main{
     width: 100%;
 }
 
+.skills {
+    width: 280px;
+}
+
 .jobs article {
     /* flex-direction: row; */
     /* width: 40%; */
